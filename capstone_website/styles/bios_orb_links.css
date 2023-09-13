@@ -1,0 +1,187 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:400,700,300);
+#bios_orb_links {
+    box-sizing: border-box;
+    display: flex;
+}
+#bios_orb_links h3 {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  line-height: 0;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  color: black;
+}
+#bios_orb_links {
+  font-family: "Oswald", sans-serif;
+}
+#bios_orb_links .page {
+  margin: 0 auto;
+  width: 920px;
+}
+#bios_orb_links .content {
+  width: 33.33%;
+  display: inline-block;
+  margin: 0 auto;
+  position: relative;
+  height: 56vh;
+  max-width: 300px;
+}
+#bios_orb_links a {
+  width: 100%;
+  display: inline-block;
+  margin: 0 auto;
+  position: relative;
+  height: 56vh;
+  max-width: 300px;
+}
+#bios_orb_links .circle_inner__layer {
+  height: 200px;
+}
+#bios_orb_links .circle_inner__layer img {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+#bios_orb_links .circle {
+    position: absolute;
+    display: flex;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 50%;
+    width: auto;
+    transform: translateY(-50%);
+    transition: all 0.5s;
+    cursor: pointer;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#bios_orb_links .circle:hover .circle_shine {
+  top: 330px;
+  left: -200px;
+}
+#bios_orb_links .circle_shine {
+  background: white;
+  width: 600px;
+  transition: 0.3s;
+  height: 200px;
+  opacity: 0.2;
+  top: -10px;
+  left: -90px;
+  transform: rotate(45deg);
+  position: absolute;
+  z-index: 2;
+}
+#bios_orb_links .circle:hover h1, #bios_orb_links .circle:hover h3 {
+  opacity: 1;
+  top: -36px;
+}
+#bios_orb_links .circle:hover .content_shadow {
+  transform: scale(1.1);
+  top: -22px;
+}
+#bios_orb_links .circle:hover h3 {
+  transition: all 0.2s 0.04s;
+}
+#bios_orb_links .circle:hover h1 {
+  transition: all 0.2s;
+}
+#bios_orb_links .circle .circle_inner__layer:nth-of-type(2) {
+  top: 0px;
+  left: -210px;
+}
+#bios_orb_links .circle .circle_inner__layer:nth-of-type(3) {
+  top: 0px;
+  left: -440px;
+}
+#bios_orb_links .circle_title {
+  text-align: center;
+}
+#bios_orb_links .circle_title h1, #bios_orb_links .circle_title h3 {
+  opacity: 0;
+  margin: 0;
+  transition: all 0.2s 0.04s;
+  position: relative;
+  top: -10px;
+}
+#bios_orb_links .circle_title h3 {
+  transition: all 0.2s;
+  font-size: 18px;
+  font-family: "Oswald", sans-serif;
+}
+#bios_orb_links .circle_title h1 {
+    transition: all 0.2s;
+    font-size: 40px;
+    text-align: center;
+    font-family: BettyNoir, 'Betty Noir';
+  }
+#bios_orb_links .circle_inner {
+  border-radius: 200px;
+  background: #B0D5D6;
+  overflow: hidden;
+  margin: auto;
+  width: 200px;
+  z-index: 1;
+  transition: all 0.3s;
+  height: 200px;
+  position: relative;
+}
+#bios_orb_links .circle_inner:hover {
+  transform: scale(1.1);
+}
+#bios_orb_links .circle_inner:hover .circle_inner__layer:nth-of-type(1) {
+  left: -80px;
+  transition: all 0.5s linear;
+}
+#bios_orb_links .circle_inner:hover .circle_inner__layer:nth-of-type(2) {
+  left: -400px;
+  transition: all 0.5s linear;
+}
+#bios_orb_links .circle_inner:hover .circle_inner__layer:nth-of-type(3) {
+  left: -140px;
+  transition: all 0.5s linear;
+}
+#bios_orb_links .content_shadow {
+  width: 200px;
+  box-shadow: 0px 31px 19px -2px #E0E8F9;
+  height: 20px;
+  border-radius: 70%;
+  position: relative;
+  top: -44px;
+  transition: all 0.3s;
+  z-index: 0;
+}
+/* Media Queries */
+/**************************/
+@media screen and (max-width: 959px) and (min-width: 674px) {
+    #index_parallax_orb_links .block {
+      padding: 40px;
+      width: 620px;
+    }
+  }
+  @media screen and (max-width: 674px) {
+    #index_parallax_orb_links .block {
+      padding: 30px;
+      width: 420px;
+    }
+    #index_parallax_orb_links h2 {
+      font-size: 30px;
+    }
+    #index_parallax_orb_links .block {
+      padding: 30px;
+    }
+    #index_parallax_orb_links .parallax-one,
+    #index_parallax_orb_links .parallax-two,
+    #index_parallax_orb_links .parallax-three {
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+  }
+  @media screen and (max-width: 479px) {
+    #index_parallax_orb_links .block {
+      padding: 30px 15px;
+      width: 290px;
+    }
+  }

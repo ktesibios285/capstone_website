@@ -1,0 +1,48 @@
+
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+#top_line_break p {
+  border-bottom: 3px solid black;
+  width: auto;
+  margin: 0 auto;
+}
+
+/* Media Queries */
+/**************************/
+@media screen and (max-width: 959px) and (min-width: 674px) {
+  #parallax_orb_links, #menu, #content_parallax_scrollable .block {
+      padding: 40px;
+      width: 620px;
+  }
+}
+@media screen and (max-width: 674px) {
+  #parallax_orb_links, #menu, #content_parallax_scrollable .block {
+      padding: 30px;
+      width: 420px;
+  }
+  #parallax_orb_links, #menu, #content_parallax_scrollable h2 {
+      font-size: 30px;
+  }
+  #parallax_orb_links, #menu, #content_parallax_scrollable .block {
+    padding: 30px;
+  }
+  #parallax_orb_links, #menu, #content_parallax_scrollable .parallax-one,
+  #content_parallax_scrollable .parallax-two,
+  #content_parallax_scrollable .parallax-three {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+@media screen and (max-width: 479px) {
+  #parallax_orb_links, #menu, #content_parallax_scrollable .block {
+    padding: 30px 15px;
+    width: 290px;
+  }
+}

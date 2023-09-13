@@ -1,0 +1,205 @@
+
+
+/* Typography */
+/**************************/
+#index_content_parallax_scrollable h1 {
+  font-family: BettyNoir, 'Betty Noir';
+  font-size: 70px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: black;
+  padding: 0;
+  margin: 0;
+}
+#index_content_parallax_scrollable h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 48px;
+  text-align: center;
+  color: #000;
+  font-weight: 400;
+  text-transform: uppercase;
+  z-index: 10;
+  opacity: 0.9;
+  background-color: #ffffff;
+}
+#index_content_parallax_scrollable h3 {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  line-height: 0;
+  font-weight: 400;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  color: black;
+}
+#index_content_parallax_scrollable p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+}
+.first-character {
+  font-weight: 400;
+  float: left;
+  font-size: 64px;
+  line-height: 64px;
+  padding-right: 8px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.sc {
+  color: #6a6a93;
+}
+.ny {
+  color: #31313A;
+}
+.atw {
+  color: #7f7fbe;
+}
+
+/* Section - Title */
+/**************************/
+#index_content_parallax_scrollable .title {
+  background: white;
+  padding: 40px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: xx-large;
+}
+#index_content_parallax_scrollable .title h1 {
+  font-size: 35px;
+  letter-spacing: 8px;
+}
+
+/* Section - Block */
+/**************************/
+#index_content_parallax_scrollable .block {
+  background: white;
+  padding: 60px;
+  /* width: 820px; */
+  margin: 0 auto;
+  text-align: justify;
+}
+#index_content_parallax_scrollable .block-gray {
+  background: #f2f2f2;
+  padding: 60px;
+}
+#index_content_parallax_scrollable .section-overlay-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.7;
+}
+/* Section - Icons */
+#index_content_parallax_scrollable .bios_img img{
+  float: left;
+  margin: 5px;
+  width: 128px;
+}
+#index_content_parallax_scrollable .contact_img img{
+  float: left;
+  margin: 5px;
+  width: 128px;
+}
+/* Section - Parallax */
+/**************************/
+#index_content_parallax_scrollable .parallax-one {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-image: url(../images/bridge.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+#index_content_parallax_scrollable .parallax-two {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-image: url(../images/skyline-with-river-sunset.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#index_content_parallax_scrollable .parallax-three {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-image: url(../images/closeup-man-playing-bass-guitar.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#index_content_parallax_scrollable .parallax-four {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-image: url(../images/skyline-rooftop-view-dusk.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+/* Extras */
+/**************************/
+#index_content_parallax_scrollable .line-break {
+  border-bottom: 1px solid black;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Media Queries */
+/**************************/
+ @media screen and (max-width: 959px) and (min-width: 674px) {
+  #index_content_parallax_scrollable .block {
+    padding: 40px;
+    width: 620px;
+  }
+}
+@media screen and (max-width: 674px) {
+  #index_content_parallax_scrollable .block {
+    padding: 30px;
+    width: 420px;
+  }
+  #index_content_parallax_scrollable h2 {
+    font-size: 30px;
+  }
+  #index_content_parallax_scrollable .block {
+    padding: 30px;
+  }
+  #index_content_parallax_scrollable .parallax-one,
+  #index_content_parallax_scrollable .parallax-two,
+  #index_content_parallax_scrollable .parallax-three {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+@media screen and (max-width: 479px) {
+  #index_content_parallax_scrollable .block {
+    padding: 30px 15px;
+    width: 290px;
+  }
+}
